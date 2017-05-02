@@ -153,7 +153,7 @@ class SceneContainer extends React.Component {
       <View
         {...props}
         pointerEvents={selected ? 'auto' : 'none'}
-        removeClippedSubviews={!selected}
+        removeClippedSubviews={false}
         style={[
           styles.sceneContainer,
           selected ? null : styles.hiddenSceneContainer,
