@@ -61,10 +61,12 @@ export default class Badge extends React.Component {
 
 let styles = StyleSheet.create({
   container: {
+    width:17,
+    height:17,
     fontSize: 12,
     color: '#fff',
-    backgroundColor: 'rgb(0, 122, 255)',
-    lineHeight: 15,
+    backgroundColor: 'red',
+    lineHeight: 16,
     textAlign: 'center',
     borderWidth: 1 + Layout.pixel,
     borderColor: '#fefefe',
