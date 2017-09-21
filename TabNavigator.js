@@ -55,9 +55,9 @@ export default class TabNavigator extends React.Component {
         return;
       }
       let key = this._getSceneKey(item, index);
-      if (oldSceneKeys.has(key) || item.props.selected) {
+     // if (oldSceneKeys.has(key) || item.props.selected) {
         newSceneKeys.add(key);
-      }
+     // }
     });
     return newSceneKeys.asImmutable();
   }
